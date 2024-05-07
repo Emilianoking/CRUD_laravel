@@ -18,8 +18,6 @@ return new class extends Migration
             $table->dateTime('due_date')->nullable();
             $table->enum('status', ['Pendiente', 'En progreso', 'Completada'])->nullable();
             $table->timestamps();
-            
-
         });
     }
 
