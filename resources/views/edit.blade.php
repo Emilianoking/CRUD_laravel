@@ -1,5 +1,5 @@
 @extends('layouts.base')
-
+<!-- juan camilo gomez duarte-->
 @section('content')
 <div class="row">
     <div class="col-12">
@@ -24,6 +24,7 @@
     @endif
 
     <form action="{{route('tasks.update', $task)}}" method="POST">
+        
         @csrf
         @method('PUT')
         <div class="row">
@@ -44,6 +45,7 @@
                     <strong>Fecha límite:</strong>
                     <input type="date" name="due_date" class="form-control" value={{$task ->due_date}} id="">
                 </div>
+                
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 mt-2">
                 <div class="form-group">
@@ -61,5 +63,6 @@
             </div>
         </div>
     </form>
+    
 </div>
 @endsection

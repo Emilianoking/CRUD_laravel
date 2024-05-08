@@ -1,6 +1,9 @@
 <?php
 
 namespace App\Providers;
+/**
+     * Juan camilo gomez duarte 858168
+     */
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\Paginator;

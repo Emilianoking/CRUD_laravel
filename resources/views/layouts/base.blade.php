@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- juan camilo gomez duarte-->
     <meta charset="UTF-8">
+    <meta name="autor" content="Juan camilo gomez duarte">
+    <meta name="fecha" content="07/05/2024">
+    <meta name="Profesor" content="Mario Porras">
+    <meta name="fecha" content="">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 

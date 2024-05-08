@@ -1,5 +1,7 @@
 <?php
-
+/**
+     * Juan camilo gomez duarte 858168
+     */
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
